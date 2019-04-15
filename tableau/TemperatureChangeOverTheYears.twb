@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20191.19.0321.1733                               -->
+<workbook original-version='18.1' source-build='2019.1.2 (20191.19.0321.1733)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='HadCRUT.4.6.0.0.annual_ns_avg' inline='true' name='federated.14qwpc01pxene419t7rh11rt8mmx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='HadCRUT.4.6.0.0.annual_ns_avg' name='textscan.02y91h910vja8u15jft0q1sbq5ke'>
+            <connection class='textscan' directory='/Users/aayushi/Google Drive/SCU/Dashboards/SelfStudyProject/Tableau' filename='HadCRUT.4.6.0.0.annual_ns_avg.txt' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.02y91h910vja8u15jft0q1sbq5ke' name='HadCRUT.4.6.0.0.annual_ns_avg.txt' table='[HadCRUT.4.6.0.0.annual_ns_avg#txt]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=' '>
+            <column datatype='integer' name='YEAR' ordinal='0' />
+            <column datatype='real' name='a' ordinal='1' />
+            <column datatype='real' name='b' ordinal='2' />
+            <column datatype='real' name='c_' ordinal='3' />
+            <column datatype='real' name='d' ordinal='4' />
+            <column datatype='real' name='e' ordinal='5' />
+            <column datatype='real' name='f' ordinal='6' />
+            <column datatype='real' name='g' ordinal='7' />
+            <column datatype='real' name='h' ordinal='8' />
+            <column datatype='real' name='i' ordinal='9' />
+            <column datatype='real' name='j' ordinal='10' />
+            <column datatype='real' name='k' ordinal='11' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot; &quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YEAR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[YEAR]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>YEAR</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>a</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[a]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>a</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>b</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[b]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>b</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c_</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[c_]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>c_</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>d</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[d]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>d</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>e</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[e]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>e</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>f</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[f]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>f</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>g</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[g]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>g</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>h</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[h]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>h</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>i</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[i]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>i</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>j</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[j]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>j</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>k</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[k]</local-name>
+            <parent-name>[HadCRUT.4.6.0.0.annual_ns_avg.txt]</parent-name>
+            <remote-alias>k</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[YEAR]' role='dimension' type='ordinal' />
+      <column caption='Median' datatype='real' name='[a]' role='measure' type='quantitative' />
+      <column caption='LCIBU' datatype='real' name='[b]' role='measure' type='quantitative' />
+      <column caption='UCIBU' datatype='real' name='[c_]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.307947' measure-ordering='alphabetic' measure-percentage='0.692053' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Heat Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='HadCRUT.4.6.0.0.annual_ns_avg' name='federated.14qwpc01pxene419t7rh11rt8mmx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.14qwpc01pxene419t7rh11rt8mmx'>
+            <column aggregation='Sum' datatype='integer' name='[YEAR]' role='dimension' type='ordinal' />
+            <column caption='Median' datatype='real' name='[a]' role='measure' type='quantitative' />
+            <column-instance column='[YEAR]' derivation='None' name='[none:YEAR:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[a]' derivation='Sum' name='[sum:a:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.14qwpc01pxene419t7rh11rt8mmx].[sum:a:qk]' included-values='in-range-or-null'>
+            <min>2.2250738585072014e-308</min>
+            <max>0.79700000000000004</max>
+          </filter>
+          <slices>
+            <column>[federated.14qwpc01pxene419t7rh11rt8mmx].[sum:a:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.14qwpc01pxene419t7rh11rt8mmx].[sum:a:qk]' num-steps='25' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#a91e10</color>
+                <color>#ad2b1e</color>
+                <color>#b13a2e</color>
+                <color>#b6493e</color>
+                <color>#ba584f</color>
+                <color>#be6960</color>
+                <color>#c37a72</color>
+                <color>#c78b85</color>
+                <color>#cb9e99</color>
+                <color>#d0b1ad</color>
+                <color>#d4c4c3</color>
+                <color>#d9d9d9</color>
+                <color>#c7ced4</color>
+                <color>#b7c3d0</color>
+                <color>#a7b9cc</color>
+                <color>#97afc8</color>
+                <color>#88a5c4</color>
+                <color>#799bc0</color>
+                <color>#6b92bc</color>
+                <color>#5d89b8</color>
+                <color>#5080b4</color>
+                <color>#4478b0</color>
+                <color>#3870ac</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.14qwpc01pxene419t7rh11rt8mmx].[sum:a:qk]' />
+              <color column='[federated.14qwpc01pxene419t7rh11rt8mmx].[sum:a:qk]' />
+              <text column='[federated.14qwpc01pxene419t7rh11rt8mmx].[none:YEAR:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FF704235-0306-4545-B5BC-071A10A5A6C1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Heat Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='300'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.14qwpc01pxene419t7rh11rt8mmx].[sum:a:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.14qwpc01pxene419t7rh11rt8mmx].[none:YEAR:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{26064FFC-7418-4C4F-A9AE-4B6B7492EF46}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Heat Map' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

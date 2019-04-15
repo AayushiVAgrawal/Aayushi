@@ -23,7 +23,7 @@ Although, an important fact but they did not cover the cause of the increase. Al
 
 # Visualization Comparison
 
-| | Visualization-1 | Visualization-2 | Vishualization-3 | Visualization-4 | Visualization-5
+| | Visualization-1 | Visualization-2 | Visualization-3 | Visualization-4 | Visualization-5
  ----- | ------ | ------ | ------ | ------ | ------
 **Purpose of Visualization** | To show the trend of Global annual mean surface temperature from 1850- 2010. | To show the trend of Global temperature from 1850- 2016 with the help of colors in polka dots. | To show the trend of Global temperature from 1850- 2016 with the help of spiral. | To show that natural sun fluctuations cause global warmimg. It shows that the temperature pattern coincides with the solar activity. | To show that carbon dioxide emmission is not the main cause for global temperature increase.
 **Is the design aesthetically pleasing?** | Yes	| Not much | Yes | Yes, it is. But could be better. | No. The values on x-axis look quite congested and is not readable.
