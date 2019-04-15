@@ -7,19 +7,19 @@ Although, an important fact but they did not cover the cause of the increase. Al
 
 ### Visualization 1
 
-![Image of Visualization 1](https://github.com/AayushiVAgrawal/SelfStudyProject/images/Visualization-1.gif)
+![Image of Visualization 1](images/Visualization-1.gif)
 
 ### Visualization 2
-![Image of Visualization 2](https://github.com/AayushiVAgrawal/SelfStudyProject/images/Visualization-2.png)
+![Image of Visualization 2](images/Visualization-2.png)
 
 ### Visualization 3
-![Image of Visualization 3](https://github.com/AayushiVAgrawal/SelfStudyProject/images/Visualization-3.png)
+![Image of Visualization 3](images/Visualization-3.png)
 
 ### Visualization 4
-![Image of Visualization 4](https://github.com/AayushiVAgrawal/SelfStudyProject/images/Visualization-4.png)
+![Image of Visualization 4](images/Visualization-4.png)
 
 ### Visualization 5
-![Image of Visualization 5](https://github.com/AayushiVAgrawal/SelfStudyProject/images/Visualization-5.jpg)
+![Image of Visualization 5](images/Visualization-5.jpg)
 
 # Visualization Comparison
 
